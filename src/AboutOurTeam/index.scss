@@ -1,0 +1,49 @@
+.Team{
+    min-height: 60vh;
+    width: 100%;
+    .TeamDiv{
+        display: flex;
+        flex-direction: column;
+        max-width: 80%;
+        margin:0 auto;
+        .TeamHead{
+            text-align: center;
+        }
+        .TeamList{
+            display: flex;
+            justify-content: space-between;
+            max-width: 100%;
+            text-align: center;
+            img{
+                border-radius: 50% ;
+            }
+            
+        }
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .Team{
+        min-height: 60vh;
+        width: 100%;
+        .TeamDiv{
+            display: flex;
+            flex-direction: column;
+            max-width: 80%;
+            margin:0 auto;
+            .TeamHead{
+                text-align: center;
+            }
+            .TeamList{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                max-width: 100%;
+                text-align: center;
+                img{
+                    border-radius: 50% ;
+                }
+                
+            }
+        }
+    }
+  }

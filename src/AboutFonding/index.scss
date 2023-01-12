@@ -1,0 +1,92 @@
+.Fonding{
+    min-height: 170vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    .FondingDiv{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 75%;
+        justify-content: space-around;
+        .OurFonding{
+            display: flex;
+            align-items: center;
+            gap: 20px   ;
+            h2{
+                font-size: 35px ;
+                font-weight: 700;
+            }
+            p{
+                font-size: 20px;
+                color: gray;
+            }
+            
+        }
+        .Growth{
+            display: flex;
+            align-items: center;
+            gap: 20px   ;
+            h2{
+                font-size: 35px ;
+                font-weight: 700;
+            }
+            p{
+                font-size: 20px;
+                color: gray;
+            }
+
+        }
+    }
+}
+@media only screen and (max-width: 1200px){
+    .Fonding{
+        min-height: 170vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        .FondingDiv{
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            max-width: 75%;
+            justify-content: space-around;
+            .OurFonding{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px   ;
+                img{
+                    width: 300px;
+                }
+                h2{
+                    font-size: 25px ;
+                    font-weight: 700;
+                }
+                p{
+                    font-size: 10px;
+                    color: gray;
+                }
+                
+            }
+            .Growth{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px   ;
+                img{
+                    width: 300px;
+                }
+                h2{
+                    font-size: 25px ;
+                    font-weight: 700;
+                }
+                p{
+                    font-size: 10px;
+                    color: gray;
+                }
+    
+            }
+        }
+    }
+}

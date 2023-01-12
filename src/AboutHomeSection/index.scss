@@ -1,0 +1,47 @@
+.AboutHome{
+    min-height: 75vh;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    .AboutHomeDiv{
+        max-width: 40%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 20px;
+        h1{
+            font-size: 40px;
+            font-weight: 700 ;
+        }
+        p{
+            font-size: 20px;
+            color: gray;
+        }
+        button{
+            width: 160px;
+            height: 50px;
+            background-color: #0d6efd;
+            border-radius: 7px;
+            font-size: 20px;
+            color: white;
+            border: none;
+            transition: .3s;
+            &:hover{
+                border: 2px solid #3c7cdc;
+                background-color: #0b4091;
+                
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .AboutHomeDiv{
+        max-width: 90% !important;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 20px;
+  }}

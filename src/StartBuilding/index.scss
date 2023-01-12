@@ -1,0 +1,95 @@
+.Better {
+    min-height: 70vh;
+    max-width: 100%;
+
+    .BetterDiv {
+        display: flex;
+        justify-content: space-between;
+        max-width: 80%;
+        margin: 0 auto;
+        padding-top: 70px;
+
+        .BetterTxt {
+            max-width: 29%;
+            h2{
+                font-size: 30px;
+            }
+        }
+
+        .BetterRight {
+            display: flex;
+            
+            max-width: 60%;
+            div{
+               
+                i{
+                    padding: 10px;
+                    background-color: #0d6efd;
+                    color: white;
+                    border-radius: 4px;
+                    font-size: 30px;
+                }
+                h4{
+                    padding-top: 10px;
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+                p{
+                    // padding-top: 10px;
+                    padding: 10px 0px 30px 0px;
+                }
+            }
+           
+          }
+        }
+    }
+    @media only screen and (max-width: 1100px) {
+        .Better {
+            min-height: 70vh;
+            max-width: 100%;
+        
+            .BetterDiv {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                max-width: 100%;
+                margin: 0 auto;
+                padding-top: 70px;
+        
+                .BetterTxt {
+                    max-width: 70%;
+                    h2{
+                        font-size: 22px;
+                    }
+                }
+        
+                .BetterRight {
+                    display: flex;
+                    flex-direction: column;
+                    
+                    max-width: 60%;
+                    div{
+                       
+                        i{
+                            padding: 10px;
+                            background-color: #0d6efd;
+                            color: white;
+                            border-radius: 4px;
+                            font-size: 30px;
+                        }
+                        h4{
+                            padding-top: 10px;
+                            font-size: 24px;
+                            font-weight: 500;
+                        }
+                        p{
+                            // padding-top: 10px;
+                            padding: 10px 0px 30px 0px;
+                        }
+                    }
+                   
+                  }
+                }
+            }
+      }

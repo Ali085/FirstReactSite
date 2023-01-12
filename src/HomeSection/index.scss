@@ -1,0 +1,123 @@
+.Home {
+    margin-top: 70px;
+    background-color: #212529;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .HomeDiv {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        gap: 50px;
+
+        .HomeLeft {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 35%;
+
+            .HomeTxt {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                h1 {
+                    font-size: 45px;
+                    color: white;
+                }
+
+                p {
+                    font-size: 20px;
+                    color: gray;
+                }
+            }
+
+            .HomeButton {
+                display: flex;
+                gap: 30px;
+
+                .Get {
+                    width: 160px;
+                    height: 50px;
+                    background-color: #0d6efd;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 20px;
+                    color: white;
+                    transition: .5s;
+
+                    &:hover {
+                        background-color: #084fb9;
+                    }
+                }
+
+                .Learn {
+                    width: 160px;
+                    height: 50px;
+                    background-color: #212529;
+                    border: 1px solid white;
+                    border-radius: 5px;
+                    font-size: 20px;
+                    color: white;
+                    transition: .5s;
+
+                    &:hover {
+                        color: rgb(0, 0, 0);
+                        background-color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .HomeDiv {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        gap: 50px;
+
+        .HomeLeft {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 80% !important;
+            text-align: center;
+
+            .HomeTxt {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                h1 {
+                    font-size: 26px !important;
+                    color: white;
+                }
+
+                p {
+                    font-size: 14px !important;
+                    color: gray;
+                }
+            }
+        }
+
+        .HomeButton {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin: 0 auto;
+        }
+    }
+
+
+
+    .HomeImg {
+        display: none !important;
+    }
+}
